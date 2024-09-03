@@ -1,0 +1,422 @@
+/* common css */
+body{
+ background-color: #10041c;
+ font-family: sans-serif;
+}
+.container{
+    max-width: 991px;
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+    color: #ffffff;
+   
+    font-family: sans-serif;
+}
+p{
+    color: #61557c;
+}
+h1,h2 ,h3{
+    color: #ffffff;
+}
+header nav ul li a{
+    display: none;
+}
+
+
+/* topber css strat */
+header {
+    display: none;
+}
+
+.topber_inner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.topber_item .logo h2{
+   color: #ffffff;
+   font-weight: 700;
+}
+.topber_item ul li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+.topber_item ul li a{
+    color:#61557c;
+    transition:  all 0.5s;
+   
+}
+.topber_item ul li a:hover{
+    color: #ffffff;
+    transition:  all 0.5s;
+    
+}
+.icon a{
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+.icon a:hover{
+    color:  rgb(0, 255, 255);
+    transition: all 0.5s;
+    
+}
+
+/* about css start */
+
+.about_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.about_item .img img{
+    width: 100%;
+}
+.about_dis{
+    margin-top: 140px;
+}
+.about_dis .head_p{
+ text-transform: uppercase;
+ font-size: 19px;
+ line-height: 0;
+ margin-bottom: 10px;
+
+ 
+}
+.about_dis p {
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+.about_dis h1{
+ color: #ffffff;
+ 
+}
+.btn{
+    
+    display: flex;
+    align-items: center;
+    
+} 
+.btn .a1{
+  
+   background-color: hsl(287, 98%, 49%);
+   border: 2px solid hsl(287, 98%, 49%);
+   
+   box-shadow:  0px 1px 5px hsl(287, 98%, 49%);
+   position: relative;
+   z-index: 1;
+   transition: all 0.7s;
+   overflow: hidden;
+   
+}
+.btn .a1::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #10041c;
+    top: 0;
+    right: -200px;
+    transition: all 0.7s;
+    z-index: -1;
+
+}
+.btn .a1:hover::after{
+    right: 0;
+   
+}
+.btn a{
+    background-color: #10041c;
+    border: 2px solid #61557c;
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.7s;
+    z-index: 1;
+    overflow: hidden;
+    height: 20px;
+    width: 110px;
+    text-align: center;
+}
+.btn a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(287, 98%, 49%);
+    top: 0;
+    left: -200px;
+    transition: all 0.7s;
+    z-index: -1;
+
+}
+.btn a:hover::after{
+    left: 0;
+}
+.about_dis h5{
+    color: #ffffff;
+    display: inline-block;
+    
+}
+.socail_icon  a{
+    font-size: 18px;
+    margin-left: 7px;
+    margin-top: 5px;
+    transition: all 0.3s;
+    padding: 2px;
+}
+.socail_icon  a:hover{
+    color: rgb(0, 255, 255);
+    transition: all 0.3s;
+
+}
+
+
+/* products css start */
+
+.product_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:10px;
+    margin-top: 150px;
+    
+}
+.product_item .img img{
+    width: 100%;
+}
+.product_dis{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.product_dis_list h3 span {
+    background-color: hsl(287, 98%, 49%);
+    padding: 1px 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #10041c;
+    display: inline-block;
+}
+.product_dis_list p{
+    line-height: 25px;
+}
+
+
+
+/* product_info css*/
+.product_info_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    margin-top: 150px;
+}
+.product_info_item img{
+    width: 90%;
+}
+.product_info_item p{
+  line-height: 25px;
+  margin-bottom: 30px;
+
+}
+.product_info_dis{
+    margin-top: 70px;
+}
+.product_info_btn a{
+  background-color: hsl(287, 98%, 49%);
+  border: 2px solid hsl(287, 98%, 49%);
+  padding: 10px 25px;
+  border-radius: 10px;
+  box-shadow:  0px 1px 5px hsl(287, 98%, 49%);
+  position: relative;
+  z-index: 1;
+  transition: all 0.7s;
+  overflow: hidden;
+  display: inline-block;
+
+}
+.product_info_btn a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:#10041c;
+    top: 0;
+    left: -200px;
+    transition: all 0.7s;
+    z-index: -1;
+
+}
+.product_info_btn a:hover::after{
+    left: 0;
+}
+/* product_adv css */
+
+.product_adv_btn a{
+    background-color: #10041c;
+    border: 2px solid #61557c;
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.7s;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+   
+   
+}
+.product_adv_btn a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(287, 98%, 49%);
+    right: -200px;
+    top: 0;
+    transition: all 0.7s;
+    z-index: -1;
+   
+  
+
+}
+.product_adv_btn a:hover::after{
+    right: 0;
+   
+}
+
+
+/* contract css  */
+.contract_inner{
+    background-color: hsl(287, 98%, 49%) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    border-radius: 30px;
+    height: 400px;
+    margin-top: 100px;
+}
+.contract_item  img{
+    width: 90%;
+}
+
+
+.contract_dis{
+  margin-top: 50px;
+}
+.contract_dis h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.contract_dis p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 20px ;
+}
+.contract_item .contract_botm {
+    margin-top: 30px;
+}
+.contract_item .contract_botm input{
+    background-color: #10041c8f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: #ffffff;
+    outline: none;
+    border: 2px solid #ffffff;
+}
+.contract_btn {
+    margin-top: 20px;
+}
+.contract_btn a{
+    padding: 8px 20px;
+    background-color: #ffffff;
+    color: #10041c;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px #ffffff ;
+    transition: all .5s;
+
+}
+.contract_btn a:hover{
+   background-color: hsla(0, 0%, 83%, 0.746);
+   transition: all .5s;
+
+}
+
+
+/* footer css */
+.footer_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin-top: 100px;
+    border-bottom:1px solid #ffffff;
+}
+.footer_item h2{
+    margin-left: 33px;
+}
+.footer_item ul li{
+    list-style: none;
+    line-height: 35px;
+    
+
+}
+.footer_item ul li a{
+    color: #61557c;
+    transition: all 0.3s;
+    font-size: 20px;
+}
+.footer_item ul li a:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+    margin-left: 5px;
+}
+.footer_item p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 33px;
+}
+.footer_item .lin li{
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright_section{
+    background-color: #10041c;
+    padding: 2px 0;
+    margin-bottom: 15px;
+   
+ }
+ .copyright_inner p span {
+    color: #fa4f00;
+ }
+ .copyright_inner p{
+    color: #fff;
+    text-align: center;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+    font-size: 18px;
+ 
+ }
+ 

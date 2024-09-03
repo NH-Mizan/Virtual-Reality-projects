@@ -1,0 +1,121 @@
+@media  only screen and (min-width:320px)and (max-width:575px){
+  
+    .topber_inner{
+    justify-content: center;
+   } 
+   .topber_item ul li a{
+   display: none;
+   
+}
+.about_inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 2px dotted #fff;
+    margin-top: 0;
+  
+}
+.product_inner{
+    display: grid;
+    grid-template-columns: 1fr ;
+    border-bottom: 2px dotted #fff;
+     
+}
+.product_info_inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 2px dotted #fff;
+}
+.product_info_btn{
+    margin-bottom: 30px;
+}
+.contract_inner{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 10px;
+
+}
+.contract_dis{
+    margin-left: 50px;
+  }
+  .contract_btn{
+    margin-left: 30px;
+}
+.contract_item .contract_botm input{
+    margin-left: 30px;
+    
+}
+.contract_botm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.footer_inner{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+}
+@media  only screen and (min-width:576px)and (max-width:767px){
+  
+    .topber_inner{
+    justify-content: space-around;
+   } 
+   .topber_item ul li a{
+   display: none;
+   
+}
+.about_inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 2px dotted #fff;
+    margin-top: 0;
+  
+}
+.product_inner{
+    display: grid;
+    grid-template-columns: 1fr ;
+    border-bottom: 2px dotted #fff;
+     
+}
+.product_info_inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 2px dotted #fff;
+}
+.product_info_btn{
+    margin-bottom: 30px;
+}
+.contract_inner{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 10px;
+
+}
+.contract_dis{
+    margin-left: 50px;
+  }
+  .contract_btn{
+    margin-left: 30px;
+}
+.contract_item .contract_botm input{
+    margin-left: 30px;
+    
+}
+ .contract_botm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+} 
+.footer_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+}
